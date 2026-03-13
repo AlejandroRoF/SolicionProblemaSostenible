@@ -9,3 +9,33 @@ A nivel de insfraestructura sin los modulos tendriamos varios microservicios des
 
 Aunque los monolitos modulares no tienen impacto directamente sobre el código (aunque si en la manera de plantearlo), si que optimiza la comunicación entre servicios, simplifica el flujo de ejecución y despliegue y permite un mayor control sobre el uso de los recursos de la aplicación, haciendo que el código y dicha aplicación sean más sostenibles.
 ***
+
+>## CICLO DE VIDA DE NUESTRA SOLUCIÓN
+
+1. **Análisis de requisitos**
+Se identifican las necesidades del sistema, definiendo qué debe hacer el software y qué restricciones tiene.
+
+2. **Diseño**
+Se define la arquitectura del sistema, la estructura del código y cómo interactúan sus componentes o módulos.
+
+3. **Desarrollo**
+Se implementa el software escribiendo el código y construyendo las funcionalidades definidas en el diseño.
+
+4. **Pruebas**
+Se verifica que el sistema funciona correctamente, detectando y corrigiendo errores.
+
+5. **Despliegue**
+El software se instala en el entorno de producción para que los usuarios puedan utilizarlo.
+
+6. **Mantenimiento**
+Se realizan correcciones, mejoras y actualizaciones para adaptar el software a nuevas necesidades.
+
+>## INDICADORES MEDIOAMBIENTALES
+
+1. **Consumo energético:** mide la energía total usada por la infraestructura del sistema, un monolito modular requiere menos servidores y contenedores, por lo que reduce este consumo.
+
+2. **Huella de carbono:** mide las emisiones de CO₂ asociadas al uso de la infraestructura, al simplificar la arquitectura y reducir recursos, también disminuye la huella de carbono del software.
+
+>## IMAGEN CICLO DE VIDA
+
+![](imagenCicloDeVida.jpeg)
